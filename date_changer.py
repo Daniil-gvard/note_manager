@@ -1,0 +1,6 @@
+created_date = input("Введите дату создания(дд.мм.гг): ")
+issue_date = input("Введите дату окончания(дд.мм.гг): ")
+temp_created_date = (created_date[0:5])
+temp_issue_date = (issue_date[0:5])
+print (f"Дата начала: {temp_created_date}")
+print (f"Дата окончания: {temp_issue_date}")
